@@ -40,7 +40,10 @@ use io.emit('broadcast', /* … */); to emit event to all connected socket paylo
 
 ### Diagram
 Flow:
+
 ![Flow Diagram](./Action.drawio.png)
+
 LLD:
+
 ![Actions Diagram](./Actions.drawio.png)
 ![Login Diagram](./login.drawio.png)
