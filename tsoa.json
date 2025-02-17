@@ -1,0 +1,14 @@
+{
+    "entryFile": "src/problem5/index.ts",
+    "noImplicitAdditionalProperties": "throw-on-extras",
+    "spec": {
+      "outputDirectory": "public",
+      "specVersion": 3
+    },
+    "compilerOptions": {
+      "paths": {
+        "custome-module": ["libs/custome-module/src/index.ts"]
+      }
+    },
+    "ignore": ["**/node_modules/**"]
+  }

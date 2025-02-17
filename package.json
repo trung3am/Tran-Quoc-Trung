@@ -1,0 +1,38 @@
+{
+  "name": "problem5",
+  "version": "1.0.0",
+  "main": "src/problem5/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node ./src/problem5/index.ts",
+    "build": "tsc",
+    "prebuild": "npm run swagger",
+    "predev": "npm run swagger",
+    "prestart": "npm run swagger",
+    "problem-4": "npx tsx ./src/problem4/index.ts",
+    "swagger": "tsoa spec"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "@types/swagger-jsdoc": "^6.0.4",
+    "@types/swagger-ui-express": "^4.1.7",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "pg": "^8.13.3",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
+    "tsoa": "^3.2.1",
+    "typeorm": "^0.3.20"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.4",
+    "npm": "^10.9.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
