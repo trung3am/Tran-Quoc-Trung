@@ -2,7 +2,7 @@
     "entryFile": "src/problem5/index.ts",
     "noImplicitAdditionalProperties": "throw-on-extras",
     "spec": {
-      "outputDirectory": "public",
+      "outputDirectory": "src/problem5",
       "specVersion": 3
     },
     "compilerOptions": {
